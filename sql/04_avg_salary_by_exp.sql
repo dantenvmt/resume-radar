@@ -13,7 +13,7 @@ SELECT AVG(normalized_salary) as avg_salary , formatted_experience_level FROM re
 |  81875.99470830112 | Associate                  |
 +--------------------+----------------------------+
 
---- since someone may post the hourly number into the yearly field or salary creating outliers, using meadian is better and took off all of the outliers completely
+-- since someone may post the hourly number into the yearly field or salary creating outliers, using meadian is better and took off all of the outliers completely
 
 SELECT DISTINCT PERCENTILE_CONT(normalized_salary,0.5) OVER(PARTITION BY formatted_experience_level) as median_salary , formatted_experience_level FROM resume_radar.postings ORDER BY avg_salary DESC
 
