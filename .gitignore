@@ -4,3 +4,6 @@ data/
 __pycache__/
 .terraform/
 *.tfstate*
+.ipynb_checkpoints/
+mlflow.db
+mlruns/
