@@ -5,3 +5,8 @@ For the v1 of resume-radar, we gonna go with class-weight = "balanced", and the 
 FOr a job matching product, failing to recognize users' senority (recall failure) is a critical failure that affect everything downstream, while over promoting a posting(precision failure) is a minor annoyance
 
 updated model tested with hard slice on the title (meaning there is no job seniority on the tile). Model's accuracy stayed at 0.767, meaning the model still hold strong when using against jobs with no shortcut in the title
+
+in average, there are ~3910 chars per postings, with 10k postings, it is around 11.85 mil token. and for $0.15 per mil token, 
+
+07/22:
+learnt about something called template gravity, which happened when same company postings get pulled together in meaning-space regardless of the role because employers stamp every posting with the same boilerplate
