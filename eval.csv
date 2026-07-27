@@ -1,0 +1,31 @@
+,title,anchor_title,anchor_company,job_id,job_id_1,company_name,cos_dist,relevant
+0,National Practice  Manager - Construction Materials Testing,National Team  Manager - Construction Materials Testing,Atlas,3884440227,3884439422,Atlas,0.015809860535369813,0
+1,Resident Engineer,National Team  Manager - Construction Materials Testing,Atlas,3884440227,3902868071,Atlas,0.21449277382558984,1
+2,Structural Bridge Engineering Manager #24-170,National Team  Manager - Construction Materials Testing,Atlas,3884440227,3886884354,Atlas,0.2176706755484592,1
+3,Construction Superintendent,Construction Superintendent,Allegiance Technology,3889711039,3888973746,gpac,0.21320896743070838,1
+4,Construction Superintendent,Construction Superintendent,Allegiance Technology,3889711039,3900973979,RightPro Staffing,0.21633215741922673,1
+5,Construction Superintendent,Construction Superintendent,Allegiance Technology,3889711039,3905248917,Torque Consulting,0.22243616907634267,1
+6,Accounting Manager,Accounting Manager,"Comprehensive Logistics Co., Inc.",3904942511,3902835482,Ledgent,0.18953827127533296,1
+7,Accounting Manager,Accounting Manager,"Comprehensive Logistics Co., Inc.",3904942511,3901803465,Broadview Federal Credit Union,0.20299654465655692,1
+8,Accounting Manager,Accounting Manager,"Comprehensive Logistics Co., Inc.",3904942511,3891068832,CloudMasters,0.21275995884221954,1
+9,Python Developer,Python Developer,Digitive,3905239556,3905341346,Radiansys Inc.,0.2581694609852557,1
+10,Python Developer with AWS,Python Developer,Digitive,3905239556,3904949263,Dice,0.2610304346130866,1
+11,Python Software Engineer,Python Developer,Digitive,3905239556,3900967065,JPMorgan Chase & Co.,0.2691283503867985,1
+12,Oracle NetSuite - Account Executive - GB Central - Mid-market,"Industry Sales Executive- Communications, Media and Entertainment",Oracle,3904928589,3901997626,NetSuite,0.17404406790286542,1
+13,Oracle NetSuite - Account Executive - Corporate - GB Central,"Industry Sales Executive- Communications, Media and Entertainment",Oracle,3904928589,3901996683,NetSuite,0.17838733792111705,1
+14,NetSuite Sales Account Manager - West,"Industry Sales Executive- Communications, Media and Entertainment",Oracle,3904928589,3886472127,NetSuite,0.19984617060703525,1
+15,Behavioral Specialist,Families First Case Manager,Samaritas,3905336539,3905209137,Samaritas,0.1988204353392664,1
+16,"Case Manager, Digital Literacy Learning",Families First Case Manager,Samaritas,3905336539,3894866908,Samaritas,0.21238287448978332,1
+17,Youth Specialist,Families First Case Manager,Samaritas,3905336539,3906255411,Samaritas,0.2598175942225075,1
+18,Senior Manager of IT Operations,Senior Information Technology Manager,Forty-Five Group,3895210127,3906256451,Stowers Institute for Medical Research,0.25864700147579056,1
+19,Information Technology Manager,Senior Information Technology Manager,Forty-Five Group,3895210127,3895207569,Risus Talent Partners,0.26225708350424803,1
+20,Senior Systems Technician,Senior Information Technology Manager,Forty-Five Group,3895210127,3902350941,CTCI Americas Inc,0.2737332429482848,1
+21,Entry Level Insurance Sales Agent,Remote Client Services Rep (Insurance) - No Experience Required,RemoteWorker US,3904942873,3901390330,Bankers Life,0.27261864109038036,1
+22,"Customer Service ( Remote work , No Vaccination Required)",Remote Client Services Rep (Insurance) - No Experience Required,RemoteWorker US,3904942873,3889416453,Talentify.io,0.28340835032733025,1
+23,Insurance Sales Representative,Remote Client Services Rep (Insurance) - No Experience Required,RemoteWorker US,3904942873,3891016423,Bankers Life,0.2838669667522371,1
+24,Code Compliance Officer I,Combination Building Inspector,SAFEbuilt,3903471528,3887710472,Albemarle County,0.3031222434080323,1
+25,Construction Inspector II,Combination Building Inspector,SAFEbuilt,3903471528,3901174787,"KCI Technologies, Inc.",0.3050112681216405,1
+26,Utility Inspector II,Combination Building Inspector,SAFEbuilt,3903471528,3895203067,"Johnson, Mirmiran & Thompson",0.33299450296526745,1
+27,Branch Manager Trainee,Consumer Loan Sales Specialist,OneMain Financial,3899542292,3905202067,Mariner Finance,0.2750287277326211,0
+28,Customer Service Representative- Bilingual Spanish Preferred,Consumer Loan Sales Specialist,OneMain Financial,3899542292,3895800075,"PLS Financial Services, Inc.",0.27854618651671925,1
+29,Customer Service Representative- Bilingual Spanish Preferred,Consumer Loan Sales Specialist,OneMain Financial,3899542292,3888999967,"PLS Financial Services, Inc.",0.2785461865167198,1
