@@ -10,3 +10,9 @@ in average, there are ~3910 chars per postings, with 10k postings, it is around 
 
 07/22:
 learnt about something called template gravity, which happened when same company postings get pulled together in meaning-space regardless of the role because employers stamp every posting with the same boilerplate
+
+08/11:
+Metric	Result	What it measures
+precision@3 (Week 4)	0.933	broad relevance — "same neighborhood?"
+cert retention (today)	0/3	hard requirements — "passes the gate?"
+so even though we will get pretty precise metric with the job title vs job description, it doesnt hold true when taken in account of the certification. We tested the CPA cert, and none of the first 3 has CPA as their requirement. So we gonna implement the hybrid-retrival plan (like add wthe requirement REGEXP_CONTAINS(p.description, r'\bCPAb\') to the sql for bigquery e.g.) 
