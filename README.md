@@ -16,3 +16,4 @@ Metric	Result	What it measures
 precision@3 (Week 4)	0.933	broad relevance — "same neighborhood?"
 cert retention (today)	0/3	hard requirements — "passes the gate?"
 so even though we will get pretty precise metric with the job title vs job description, it doesnt hold true when taken in account of the certification. We tested the CPA cert, and none of the first 3 has CPA as their requirement. So we gonna implement the hybrid-retrival plan (like add wthe requirement REGEXP_CONTAINS(p.description, r'\bCPAb\') to the sql for bigquery e.g.) 
+My first dedup keyed on description alone - but one description can cover many real jobs (Cogent stamped the same text on fiber-tech roles in six cities), so it wrongly deleted 86 postings. The fix keys on title + description - the exact string that was embedded - so 'duplicate' means the same thing to the dedup table and the vector index.
