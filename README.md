@@ -18,4 +18,5 @@ cert retention (08/11)	0/3	hard requirements — "passes the gate?"
 so even though we will get pretty precise metric with the semantic search, it doesnt hold true when taken in account of the certification. We tested the CPA cert, and none of the first 3 has CPA as their requirement. So we gonna implement the hybrid-retrieval plan (like add the requirement REGEXP_CONTAINS(p.description, r'\bCPA\b') to the sql for bigquery e.g.) 
 My first dedup keyed on description alone - but one description can cover many real jobs (Cogent stamped the same text on fiber-tech roles in six cities), so it wrongly deleted 86 postings. The fix keys on title + description - the exact string that was embedded - so 'duplicate' means the same thing to the dedup table and the vector index.
 8/12
-so with high precision@3 0.933 next to 0/3 pre-dedup top-3, 0/5 post-dedup top-5 CPA retention, the  semantic retrieval is requirement blind at the moment.
+so with high precision@3 0.933 next to 0/3 pre-dedup top-3, 0/5 post-dedup top-5 CPA retention, the  semantic retrieval is requirement blind at the moment. 
+the embedding dropped CPA, but the ai gen caught it. Retrieval scored 0/5 on cert retention but gemini reading raw posting text put CPA in gap_skill without prompting. The pydantic catch the shape, not the meaning. The thing that catches shape valid but wrong is an eval harness.
